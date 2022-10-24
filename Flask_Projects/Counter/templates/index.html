@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+<body class="bg-dark">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-7">
+                <div class="card mt-3">
+                    <h4 class="card-header">COUNT</h4>
+                    <div class="card-body">
+                        <p>You have visited this page {{session['count'] }} times, wow...</p>
+                        <a href="/" class="btn btn-primary">Refresh</a>
+                        <a href="/destroy_session" class="btn btn-secondary">Destroy Session</a>
+                        <a href="/plus2" class="btn btn-secondary">Lie and add 2 more, why not?</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

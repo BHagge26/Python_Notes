@@ -1,0 +1,11 @@
+.container{
+    width: 970px;
+}
+
+.table{
+    width: 100%;
+}
+
+.table, th, td {
+    border: 2px outset goldenrod;
+}

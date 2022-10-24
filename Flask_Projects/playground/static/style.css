@@ -1,0 +1,15 @@
+.box{
+    width: 200px;
+    height: 200px;
+    
+    border: outset goldenrod 2px;
+
+}
+
+.container{
+    display: flex;
+    justify-content: flex-start;
+    gap: 1em;
+    flex-wrap: wrap;
+    align-items: center;
+}
