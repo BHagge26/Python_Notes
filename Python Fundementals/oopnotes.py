@@ -17,10 +17,16 @@ dog_2 = {
 }
 
 class Dog:
-    def __init__(self, data):
+    is cute = True
+    all dogs = []
+    
+    def __init__(self, data, roomate):
         self.name = data['name']
         self.age = data['age']
         self.breed = data['breed']
+        Dog.all_dogs.append[]
+        self.roomate = roomate
+
 
     def bark(self):
         print(f"{self.name} makes a loud bark")
@@ -31,16 +37,26 @@ class Dog:
 
     def birthday(self):
     self.age += 1,
-    
 
+    @classmethod
+    def every_dog_barks(cls):
+        if cls.is_cute:
+
+    
+    @staticmethod
+    def years_to_dog_years(years):
+        return years * 7 
 
 dog_3 = Dog(dog_1)
 
 
 print(dog_3)
 
+branden = Human("Branden")
+Spencer = Human("Spencer")
 
-dog_3.bark().bark().bark()
+
+
 
 
 
@@ -49,3 +65,16 @@ dog_3.bark().bark().bark()
 
 #--characteristic of our object, sp,e [iece of data we are tracking about our object]
 #what is a method?
+"""
+#ClassMethods
+affects things  on a class level 
+
+#Static Methods
+doesn't effect the class of the instance. It does nothing. 
+
+"""
+
+
+class Human: 
+    def __init__(self) -> None:
+        self.name = name 
